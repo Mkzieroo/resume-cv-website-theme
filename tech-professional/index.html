@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Theme at UserCV</title>
+    <meta name="description" content="Demo Theme at UserCV" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="icon" href="/static/assets/images/favicon.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+    
+</head>
+
+<body  class="bg-gray-100" >
+    <div class="container px-4 mx-auto py-10">
+        
+<div class="min-h-screen bg-gray-100 py-10">
+  <div class="max-w-5xl mx-auto bg-white rounded-xl shadow-lg flex flex-col md:flex-row overflow-hidden">
+    <!-- Sidebar -->
+    <aside class="md:w-1/3 bg-gray-900 text-white p-8 flex flex-col items-center">
+      <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-gray-700 mb-4">
+        <img src="/static/assets/images/profile-pic.png" class="object-cover w-full h-full" alt="">
+      </div>
+      <h1 class="text-2xl font-bold mt-2 text-center">John Doe</h1>
+      <h2 class="text-lg text-gray-300 text-center mt-1">Senior Software Engineer</h2>
+      <div class="mt-4 text-center text-gray-400 text-sm">
+        Passionate software engineer with over 8 years of experience building scalable web applications and leading development teams.
+      </div>
+      <div class="mt-6 w-full">
+        <div class="flex flex-col gap-2 text-xs text-gray-200">
+          <div class="flex justify-between border-b border-gray-700 py-1"><span class="font-bold">Email:</span> <span>john.doe@example.com</span></div>
+          <div class="flex justify-between border-b border-gray-700 py-1"><span class="font-bold">Phone:</span> <span>(555) 123-4567</span></div>
+          <div class="flex justify-between border-b border-gray-700 py-1"><span class="font-bold">Location:</span> <span>San Francisco, USA</span></div>
+        </div>
+      </div>
+      <div class="mt-6 w-full">
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="https://github.com/usercv" target="_blank" class="text-gray-300 hover:text-white transition-colors">
+            <i class="bi bi-github text-xl"></i>
+          </a>
+          <a href="https://linkedin.com/company/qocial" target="_blank" class="text-gray-300 hover:text-white transition-colors">
+            <i class="bi bi-linkedin text-xl"></i>
+          </a>
+          <a href="https://twitter.com/userscv" target="_blank" class="text-gray-300 hover:text-white transition-colors">
+            <i class="bi bi-twitter text-xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="mt-8 w-full">
+        <h3 class="text-lg font-semibold text-gray-100 mb-2">Skills</h3>
+        <div class="flex flex-col gap-4">
+          <div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">JavaScript</span>
+              <span class="text-xs font-bold text-gray-300">90%</span>
+            </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1">
+              <div class="bg-blue-400 h-2 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">Python</span>
+              <span class="text-xs font-bold text-gray-300">85%</span>
+            </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1">
+              <div class="bg-blue-400 h-2 rounded-full" style="width: 85%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">React</span>
+              <span class="text-xs font-bold text-gray-300">80%</span>
+            </div>
+            <div class="w-full bg-gray-700 rounded-full h-2 mt-1">
+              <div class="bg-blue-400 h-2 rounded-full" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- Main Content -->
+    <main class="md:w-2/3 p-8 bg-white">
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 border-b-2 border-blue-400 pb-2 mb-6 uppercase tracking-wide">Experience</h2>
+        <div class="mb-6">
+          <div class="flex justify-between items-center">
+            <div>
+              <h3 class="font-semibold text-lg">Senior Software Engineer</h3>
+              <p class="text-blue-700 font-medium">Google</p>
+            </div>
+            <div class="text-xs font-bold text-gray-500">
+              Jan 2020 - Present
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm mt-2">Led development of core features for Google Cloud Platform, managing a team of 5 engineers.</p>
+        </div>
+        <div class="mb-6">
+          <div class="flex justify-between items-center">
+            <div>
+              <h3 class="font-semibold text-lg">Software Engineer</h3>
+              <p class="text-blue-700 font-medium">Facebook</p>
+            </div>
+            <div class="text-xs font-bold text-gray-500">
+              Jun 2017 - Dec 2019
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm mt-2">Developed and maintained key features for Facebook's news feed algorithm.</p>
+        </div>
+      </section>
+
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 border-b-2 border-blue-400 pb-2 mb-6 uppercase tracking-wide">Education</h2>
+        <div class="mb-6">
+          <div class="flex justify-between items-center">
+            <div>
+              <h3 class="font-semibold text-lg">Master of Computer Science</h3>
+              <p class="text-blue-700 font-medium">Stanford University</p>
+            </div>
+            <div class="text-xs font-bold text-gray-500">
+              Sep 2015 - Jun 2017
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm mt-2">Specialized in Machine Learning and Artificial Intelligence</p>
+        </div>
+      </section>
+
+      <section class="mb-10">
+        <h2 class="text-xl font-bold text-gray-900 border-b-2 border-blue-400 pb-2 mb-6 uppercase tracking-wide">Latest Blogs</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 hover:shadow-md transition duration-300">
+            <a href="/blog/1/introduction-to-react-hooks" target="_blank" class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600">Introduction to React Hooks</a>
+            <p class="text-xs text-gray-500 mb-2">March 15, 2023</p>
+            <p class="text-gray-700 text-sm">A comprehensive guide to understanding and using React Hooks effectively.</p>
+          </div>
+          <div class="bg-gray-50 rounded-lg border border-gray-200 p-4 hover:shadow-md transition duration-300">
+            <a href="/blog/2/mastering-python-decorators" target="_blank" class="text-lg font-semibold text-gray-900 mb-2 hover:text-blue-600">Mastering Python Decorators</a>
+            <p class="text-xs text-gray-500 mb-2">February 28, 2023</p>
+            <p class="text-gray-700 text-sm">Deep dive into Python decorators and their practical applications.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+
+    </div>
+
+    <!-- footer start -->
+    <footer class="py-5 border-t mx-2">
+        <div class="flex items-center justify-between gap-2 text-black">
+            <p class="text-xs">Copyright © <span class="date-year">2025</span>. All rights reserved.</p>
+            <p class="text-xs">Powered by <a href="https://usercv.com" target="_blank" class="text-blue-500">UserCV</a>. </p>
+        </div>
+    </footer>
+    <script src="/static/assets/js/tailwind-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const year = new Date().getFullYear();
+            document.querySelector('.date-year').textContent = year;
+        });
+    </script>
+    
+<script>
+  function convertTimestamp(timestamp) {
+    if (timestamp == 'Present') {
+      return 'Present';
+    }
+    if (timestamp == '') {
+      return '';
+    }
+    const date = new Date(timestamp * 1000);
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long'
+    });
+  }
+  document.querySelectorAll('.timestamp').forEach(span => {
+    span.textContent = convertTimestamp(span.dataset.timestamp);
+  });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Theme at UserCV</title>
+    <meta name="description" content="Demo Theme at UserCV" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="icon" href="/static/assets/images/favicon.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+</style>
+
+</head>
+
+<body  class="bg-gradient-to-br from-slate-50 to-white" >
+    <div class="container px-4 mx-auto py-10">
+        
+<div class="min-h-screen bg-gradient-to-br from-slate-50 to-white py-12">
+  <div class="max-w-5xl mx-auto space-y-10 px-4 sm:px-6">
+    <!-- About Card -->
+    <div class="bg-white rounded-3xl shadow-xl p-10 flex flex-col md:flex-row items-start gap-10">
+      <div class="flex-shrink-0">
+        <div class="w-40 h-40 rounded-2xl overflow-hidden shadow-lg border-2 border-slate-100">
+          <img src="/static/assets/images/profile-pic.png" class="object-cover w-full h-full" alt="John Doe">
+        </div>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-4xl font-bold tracking-tight text-slate-900">John Doe</h1>
+        <h2 class="text-xl font-medium text-indigo-600 mt-2">Senior Software Engineer</h2>
+        <div class="mt-4 text-slate-600 text-lg leading-relaxed">
+          Passionate software engineer with over 8 years of experience building scalable web applications. Focused on creating elegant solutions to complex problems.
+        </div>
+        <div class="mt-6 flex flex-wrap gap-6 text-base text-slate-700">
+          <span class="inline-flex items-center gap-2 hover:text-indigo-600 transition-colors"><i class="bi bi-envelope"></i> john.doe@example.com</span>
+          <span class="inline-flex items-center gap-2 hover:text-indigo-600 transition-colors"><i class="bi bi-telephone"></i> (555) 123-4567</span>
+          <span class="inline-flex items-center gap-2 hover:text-indigo-600 transition-colors"><i class="bi bi-geo-alt"></i> San Francisco, USA</span>
+        </div>
+        <div class="mt-6 flex flex-wrap gap-6">
+          <a href="https://linkedin.com/company/qocial" target="_blank" class="text-slate-600 hover:text-indigo-600 transition-colors">
+            <i class="bi bi-linkedin text-2xl"></i>
+          </a>
+          <a href="https://github.com/usercv" target="_blank" class="text-slate-600 hover:text-indigo-600 transition-colors">
+            <i class="bi bi-github text-2xl"></i>
+          </a>
+          <a href="https://twitter.com/userscv" target="_blank" class="text-slate-600 hover:text-indigo-600 transition-colors">
+            <i class="bi bi-twitter text-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Card -->
+    <div class="bg-white rounded-3xl shadow-xl p-10">
+      <h3 class="text-2xl font-bold text-slate-900 mb-8">Skills & Expertise</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-semibold text-slate-800">JavaScript</span>
+            <span class="text-sm font-medium text-indigo-600">95%</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-2.5">
+            <div class="bg-indigo-600 h-2.5 rounded-full transition-all duration-500" style="width: 95%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-semibold text-slate-800">Python</span>
+            <span class="text-sm font-medium text-indigo-600">90%</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-2.5">
+            <div class="bg-indigo-600 h-2.5 rounded-full transition-all duration-500" style="width: 90%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between items-center mb-2">
+            <span class="font-semibold text-slate-800">React</span>
+            <span class="text-sm font-medium text-indigo-600">85%</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-2.5">
+            <div class="bg-indigo-600 h-2.5 rounded-full transition-all duration-500" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Card -->
+    <div class="bg-white rounded-3xl shadow-xl p-10">
+      <h3 class="text-2xl font-bold text-slate-900 mb-8">Professional Experience</h3>
+      <div class="mb-8">
+        <div class="flex justify-between items-start">
+          <div>
+            <h4 class="text-xl font-semibold text-slate-900">Senior Software Engineer</h4>
+            <p class="text-lg text-indigo-600 font-medium mt-1">Google</p>
+          </div>
+          <div class="text-sm font-medium text-slate-500">
+            January 2020 - Present
+          </div>
+        </div>
+        <p class="text-slate-600 mt-4 leading-relaxed">Led development of core features for Google Cloud Platform, improving system performance by 35%.</p>
+      </div>
+      <div class="mb-8">
+        <div class="flex justify-between items-start">
+          <div>
+            <h4 class="text-xl font-semibold text-slate-900">Software Engineer</h4>
+            <p class="text-lg text-indigo-600 font-medium mt-1">Facebook</p>
+          </div>
+          <div class="text-sm font-medium text-slate-500">
+            June 2017 - December 2019
+          </div>
+        </div>
+        <p class="text-slate-600 mt-4 leading-relaxed">Developed and maintained key features of Facebook's news feed algorithm.</p>
+      </div>
+    </div>
+
+    <!-- Education Card -->
+    <div class="bg-white rounded-3xl shadow-xl p-10">
+      <h3 class="text-2xl font-bold text-slate-900 mb-8">Education</h3>
+      <div class="mb-8">
+        <div class="flex justify-between items-start">
+          <div>
+            <h4 class="text-xl font-semibold text-slate-900">Master of Computer Science</h4>
+            <p class="text-lg text-indigo-600 font-medium mt-1">Stanford University</p>
+          </div>
+          <div class="text-sm font-medium text-slate-500">
+            2015 - 2017
+          </div>
+        </div>
+        <p class="text-slate-600 mt-4 leading-relaxed">Specialized in Machine Learning and Artificial Intelligence</p>
+      </div>
+    </div>
+
+    <!-- Projects Card -->
+    <div class="bg-white rounded-3xl shadow-xl p-10">
+      <h3 class="text-2xl font-bold text-slate-900 mb-8">Latest Blogs</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition duration-300 border border-slate-100">
+          <h4 class="text-xl font-semibold text-slate-900 mb-3"><a href="#" class="hover:text-indigo-600">Understanding Modern JavaScript</a></h4>
+          <p class="text-sm text-indigo-600 mb-3">March 2023</p>
+          <p class="text-slate-600 leading-relaxed">A deep dive into modern JavaScript features and best practices.</p>
+        </div>
+        <div class="bg-slate-50 rounded-2xl p-6 hover:shadow-lg transition duration-300 border border-slate-100">
+          <h4 class="text-xl font-semibold text-slate-900 mb-3"><a href="#" class="hover:text-indigo-600">Python for Data Science</a></h4>
+          <p class="text-sm text-indigo-600 mb-3">February 2023</p>
+          <p class="text-slate-600 leading-relaxed">Essential Python concepts for data science and machine learning.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <!-- footer start -->
+    <footer class="py-5 border-t mx-2">
+        <div class="flex items-center justify-between gap-2 text-black">
+            <p class="text-xs">Copyright © <span class="date-year">2025</span>. All rights reserved.</p>
+            <p class="text-xs">Powered by <a href="https://usercv.com" target="_blank" class="text-blue-500">UserCV</a>. </p>
+        </div>
+    </footer>
+    <script src="/static/assets/js/tailwind-config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const year = new Date().getFullYear();
+            document.querySelector('.date-year').textContent = year;
+        });
+    </script>
+    
+<script>
+  function convertTimestamp(timestamp) {
+    if (timestamp == 'Present') {
+      return 'Present';
+    }
+    if (timestamp == '') {
+      return '';
+    }
+    const date = new Date(timestamp * 1000);
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long'
+    });
+  }
+  document.querySelectorAll('.timestamp').forEach(span => {
+    span.textContent = convertTimestamp(span.dataset.timestamp);
+  });
+</script>
+
+</body>
+
+</html>
