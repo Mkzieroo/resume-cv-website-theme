@@ -4,6 +4,8 @@
 
 A business-focused theme designed for executives and corporate professionals to showcase their achievements and professional journey.
 
+**Demo:** https://usercv.com/static/assets/images/theme/2.png
+
 ## Features
 - Business-focused design
 - Integrated achievement metrics

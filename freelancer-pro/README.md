@@ -4,6 +4,8 @@
 
 A professional theme designed for freelancers to showcase their services and client testimonials.
 
+**Demo:** https://usercv.com/static/assets/images/theme/5.png
+
 ## Features
 - Service showcase
 - Client testimonials

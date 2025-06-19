@@ -4,6 +4,8 @@
 
 A specialized theme for startup founders to showcase their achievements and company vision.
 
+**Demo:** https://usercv.com/static/assets/images/theme/10.png
+
 ## Features
 - Achievement timeline
 - Company metrics

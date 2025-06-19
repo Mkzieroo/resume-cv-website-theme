@@ -4,6 +4,8 @@
 
 A specialized theme for academics and researchers to showcase their publications and research work.
 
+**Demo:** https://usercv.com/static/assets/images/theme/1.png
+
 ## Features
 - Publication listing
 - Research highlight sections

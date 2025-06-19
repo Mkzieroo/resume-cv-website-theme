@@ -4,6 +4,8 @@
 
 A specialized theme for medical professionals to showcase their credentials and professional affiliations.
 
+**Demo:** https://usercv.com/static/assets/images/theme/7.png
+
 ## Features
 - Credentials display
 - Publication section

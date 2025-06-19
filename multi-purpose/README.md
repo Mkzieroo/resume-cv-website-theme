@@ -4,6 +4,8 @@
 
 A versatile theme that can be customized for various professional needs with multiple color schemes.
 
+**Demo:** https://usercv.com/static/assets/images/theme/9.png
+
 ## Features
 - Customizable sections
 - Versatile layout

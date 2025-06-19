@@ -4,6 +4,8 @@
 
 A specialized theme for technology professionals featuring GitHub integration and code snippet showcase capabilities.
 
+**Demo:** https://usercv.com/static/assets/images/theme/11.png
+
 ## Features
 - Skills matrix display
 - GitHub integration

@@ -4,6 +4,8 @@
 
 A gallery-style theme perfect for showcasing creative work and projects with interactive elements.
 
+**Demo:** https://usercv.com/static/assets/images/theme/3.png
+
 ## Features
 - Gallery-style layout
 - Project showcase features

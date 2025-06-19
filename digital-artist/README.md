@@ -4,6 +4,8 @@
 
 A specialized theme for digital artists featuring media gallery and animation effects.
 
+**Demo:** https://usercv.com/static/assets/images/theme/4.png
+
 ## Features
 - Media gallery
 - Animation effects

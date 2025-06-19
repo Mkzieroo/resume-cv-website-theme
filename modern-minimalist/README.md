@@ -4,6 +4,8 @@
 
 A clean and professional theme perfect for creative professionals looking to showcase their portfolio.
 
+**Demo:** https://usercv.com/static/assets/images/theme/8.png
+
 ## Features
 - Clean, professional layout
 - Perfect for creative professionals

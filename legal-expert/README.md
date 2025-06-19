@@ -4,6 +4,8 @@
 
 A specialized theme for legal professionals to showcase their case studies and practice areas.
 
+**Demo:** https://usercv.com/static/assets/images/theme/6.png
+
 ## Features
 - Case study showcase
 - Practice areas
